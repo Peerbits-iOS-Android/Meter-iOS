@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A9257024E69794008FE9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9256F24E69794008FE9E0 /* AppDelegate.swift */; };
+		C7A9257424E69794008FE9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9257324E69794008FE9E0 /* ViewController.swift */; };
+		C7A9257724E69794008FE9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A9257524E69794008FE9E0 /* Main.storyboard */; };
+		C7A9257924E69797008FE9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A9257824E69797008FE9E0 /* Assets.xcassets */; };
+		C7A9257C24E69797008FE9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A9257A24E69797008FE9E0 /* LaunchScreen.storyboard */; };
+		C7A9258724E69797008FE9E0 /* MeterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9258624E69797008FE9E0 /* MeterAppTests.swift */; };
+		C7A9259224E69797008FE9E0 /* MeterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9259124E69797008FE9E0 /* MeterAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A9258324E69797008FE9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A9256424E69794008FE9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A9256B24E69794008FE9E0;
+			remoteInfo = MeterApp;
+		};
+		C7A9258E24E69797008FE9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A9256424E69794008FE9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A9256B24E69794008FE9E0;
+			remoteInfo = MeterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7A9256C24E69794008FE9E0 /* MeterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9256F24E69794008FE9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7A9257324E69794008FE9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7A9257624E69794008FE9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A9257824E69797008FE9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A9257B24E69797008FE9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A9257D24E69797008FE9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9258224E69797008FE9E0 /* MeterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9258624E69797008FE9E0 /* MeterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterAppTests.swift; sourceTree = "<group>"; };
+		C7A9258824E69797008FE9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9258D24E69797008FE9E0 /* MeterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9259124E69797008FE9E0 /* MeterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterAppUITests.swift; sourceTree = "<group>"; };
+		C7A9259324E69797008FE9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9259F24E697D1008FE9E0 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A9256924E69794008FE9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9257F24E69797008FE9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9258A24E69797008FE9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A9256324E69794008FE9E0 = {
+			isa = PBXGroup;
+			children = (
+				C7A9256E24E69794008FE9E0 /* MeterApp */,
+				C7A9258524E69797008FE9E0 /* MeterAppTests */,
+				C7A9259024E69797008FE9E0 /* MeterAppUITests */,
+				C7A9256D24E69794008FE9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A9256D24E69794008FE9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9256C24E69794008FE9E0 /* MeterApp.app */,
+				C7A9258224E69797008FE9E0 /* MeterAppTests.xctest */,
+				C7A9258D24E69797008FE9E0 /* MeterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A9256E24E69794008FE9E0 /* MeterApp */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9256F24E69794008FE9E0 /* AppDelegate.swift */,
+				C7A9257324E69794008FE9E0 /* ViewController.swift */,
+				C7A9257524E69794008FE9E0 /* Main.storyboard */,
+				C7A9257824E69797008FE9E0 /* Assets.xcassets */,
+				C7A9257A24E69797008FE9E0 /* LaunchScreen.storyboard */,
+				C7A9257D24E69797008FE9E0 /* Info.plist */,
+				C7A9259F24E697D1008FE9E0 /* bridge.h */,
+			);
+			path = MeterApp;
+			sourceTree = "<group>";
+		};
+		C7A9258524E69797008FE9E0 /* MeterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9258624E69797008FE9E0 /* MeterAppTests.swift */,
+				C7A9258824E69797008FE9E0 /* Info.plist */,
+			);
+			path = MeterAppTests;
+			sourceTree = "<group>";
+		};
+		C7A9259024E69797008FE9E0 /* MeterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9259124E69797008FE9E0 /* MeterAppUITests.swift */,
+				C7A9259324E69797008FE9E0 /* Info.plist */,
+			);
+			path = MeterAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A9256B24E69794008FE9E0 /* MeterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A9259624E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterApp" */;
+			buildPhases = (
+				C7A9256824E69794008FE9E0 /* Sources */,
+				C7A9256924E69794008FE9E0 /* Frameworks */,
+				C7A9256A24E69794008FE9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeterApp;
+			productName = MeterApp;
+			productReference = C7A9256C24E69794008FE9E0 /* MeterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7A9258124E69797008FE9E0 /* MeterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A9259924E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterAppTests" */;
+			buildPhases = (
+				C7A9257E24E69797008FE9E0 /* Sources */,
+				C7A9257F24E69797008FE9E0 /* Frameworks */,
+				C7A9258024E69797008FE9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A9258424E69797008FE9E0 /* PBXTargetDependency */,
+			);
+			name = MeterAppTests;
+			productName = MeterAppTests;
+			productReference = C7A9258224E69797008FE9E0 /* MeterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7A9258C24E69797008FE9E0 /* MeterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A9259C24E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterAppUITests" */;
+			buildPhases = (
+				C7A9258924E69797008FE9E0 /* Sources */,
+				C7A9258A24E69797008FE9E0 /* Frameworks */,
+				C7A9258B24E69797008FE9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A9258F24E69797008FE9E0 /* PBXTargetDependency */,
+			);
+			name = MeterAppUITests;
+			productName = MeterAppUITests;
+			productReference = C7A9258D24E69797008FE9E0 /* MeterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A9256424E69794008FE9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Khan;
+				TargetAttributes = {
+					C7A9256B24E69794008FE9E0 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C7A9258124E69797008FE9E0 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C7A9256B24E69794008FE9E0;
+					};
+					C7A9258C24E69797008FE9E0 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C7A9256B24E69794008FE9E0;
+					};
+				};
+			};
+			buildConfigurationList = C7A9256724E69794008FE9E0 /* Build configuration list for PBXProject "MeterApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A9256324E69794008FE9E0;
+			productRefGroup = C7A9256D24E69794008FE9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A9256B24E69794008FE9E0 /* MeterApp */,
+				C7A9258124E69797008FE9E0 /* MeterAppTests */,
+				C7A9258C24E69797008FE9E0 /* MeterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A9256A24E69794008FE9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9257C24E69797008FE9E0 /* LaunchScreen.storyboard in Resources */,
+				C7A9257924E69797008FE9E0 /* Assets.xcassets in Resources */,
+				C7A9257724E69794008FE9E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9258024E69797008FE9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9258B24E69797008FE9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A9256824E69794008FE9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9257424E69794008FE9E0 /* ViewController.swift in Sources */,
+				C7A9257024E69794008FE9E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9257E24E69797008FE9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9258724E69797008FE9E0 /* MeterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9258924E69797008FE9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9259224E69797008FE9E0 /* MeterAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7A9258424E69797008FE9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A9256B24E69794008FE9E0 /* MeterApp */;
+			targetProxy = C7A9258324E69797008FE9E0 /* PBXContainerItemProxy */;
+		};
+		C7A9258F24E69797008FE9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A9256B24E69794008FE9E0 /* MeterApp */;
+			targetProxy = C7A9258E24E69797008FE9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7A9257524E69794008FE9E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A9257624E69794008FE9E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7A9257A24E69797008FE9E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A9257B24E69797008FE9E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A9259424E69797008FE9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7A9259524E69797008FE9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A9259724E69797008FE9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.test12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MeterApp/bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7A9259824E69797008FE9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.test12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MeterApp/bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7A9259A24E69797008FE9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.MeterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeterApp.app/MeterApp";
+			};
+			name = Debug;
+		};
+		C7A9259B24E69797008FE9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.MeterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeterApp.app/MeterApp";
+			};
+			name = Release;
+		};
+		C7A9259D24E69797008FE9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.MeterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeterApp;
+			};
+			name = Debug;
+		};
+		C7A9259E24E69797008FE9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khan.MeterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A9256724E69794008FE9E0 /* Build configuration list for PBXProject "MeterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A9259424E69797008FE9E0 /* Debug */,
+				C7A9259524E69797008FE9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A9259624E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A9259724E69797008FE9E0 /* Debug */,
+				C7A9259824E69797008FE9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A9259924E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A9259A24E69797008FE9E0 /* Debug */,
+				C7A9259B24E69797008FE9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A9259C24E69797008FE9E0 /* Build configuration list for PBXNativeTarget "MeterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A9259D24E69797008FE9E0 /* Debug */,
+				C7A9259E24E69797008FE9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A9256424E69794008FE9E0 /* Project object */;
+}
